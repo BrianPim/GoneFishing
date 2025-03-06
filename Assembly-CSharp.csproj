@@ -56,25 +56,25 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_scripts\Outline.cs" />
-    <Compile Include="Assets\_scripts\FishParent.cs" />
-    <Compile Include="Assets\_scripts\ExtraHook.cs" />
+    <Compile Include="Assets\_scripts\Post_Processing\Outline.cs" />
+    <Compile Include="Assets\_scripts\Mechanics\FishParent.cs" />
+    <Compile Include="Assets\_scripts\Mechanics\ExtraHook.cs" />
     <Compile Include="Assets\_scripts\Menu_Scripts\Fishpedia.cs" />
     <Compile Include="Assets\_scripts\Menu_Scripts\Shop.cs" />
-    <Compile Include="Assets\_scripts\Fish_Behaviours\ScaredyFish.cs" />
+    <Compile Include="Assets\_scripts\Mechanics\Fish_Behaviours\ScaredyFish.cs" />
     <Compile Include="Assets\_scripts\Menu_Scripts\PauseMenu.cs" />
     <Compile Include="Assets\_scripts\Menu_Scripts\StartMenu.cs" />
-    <Compile Include="Assets\_scripts\Fish_Behaviours\BaitLovingFish.cs" />
+    <Compile Include="Assets\_scripts\Mechanics\Fish_Behaviours\BaitLovingFish.cs" />
     <Compile Include="Assets\_art\Shaders\Toon Shader\DepthNormalsFeature.cs" />
-    <Compile Include="Assets\_scripts\Fish_Behaviours\DefaultFish.cs" />
-    <Compile Include="Assets\_scripts\PostProcessingChanger.cs" />
+    <Compile Include="Assets\_scripts\Mechanics\Fish_Behaviours\DefaultFish.cs" />
+    <Compile Include="Assets\_scripts\Post_Processing\PostProcessingChanger.cs" />
     <Compile Include="Assets\_scripts\CameraController.cs" />
-    <Compile Include="Assets\_scripts\FishSpawner.cs" />
+    <Compile Include="Assets\_scripts\Mechanics\FishSpawner.cs" />
     <Compile Include="Assets\_scripts\Menu_Scripts\FishermanMenu.cs" />
     <Compile Include="Assets\_scripts\CloudSpawner.cs" />
     <Compile Include="Assets\_scripts\MusicHandler.cs" />
     <Compile Include="Assets\_scripts\CloudController.cs" />
-    <Compile Include="Assets\_scripts\HookController.cs" />
+    <Compile Include="Assets\_scripts\Mechanics\HookController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\other\TextMesh Pro\Shaders\TMPro.cginc" />
